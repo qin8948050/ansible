@@ -1,0 +1,9 @@
+- name: TOMCAT | INSTALL TOMCAT
+  yum:
+    name: tomcat
+    state: installed
+- name: TOMCAT | started tomcat
+  service:
+    name: tomcat
+    state: started
+

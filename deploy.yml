@@ -1,0 +1,4 @@
+#./ansible-tomcat/deploy.yml
+- hosts: tomcat
+  tasks:
+   - include: tasks/install_tomcat.yml
